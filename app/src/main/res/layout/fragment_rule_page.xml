@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvEmptyRules"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No rules yet.\nTap + to create your first rule."
+        android:textSize="16sp"
+        android:textColor="@color/black_100"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/lvSmsRule"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:padding="8dp"
+        android:clipToPadding="false"/>
+
+</FrameLayout>

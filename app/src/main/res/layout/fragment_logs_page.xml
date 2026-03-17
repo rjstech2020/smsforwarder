@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvEmptyLogs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No messages processed yet.\nLogs will appear here when SMS messages are received."
+        android:textSize="16sp"
+        android:textColor="@color/black_100"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/lvLogs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"/>
+
+</LinearLayout>

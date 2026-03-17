@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_phone_no_width">100dp</dimen>
+    <dimen name="et_phone_no_width">150dp</dimen>
+    <dimen name="et_phone_no_height">36dp</dimen>
+    <dimen name="rule_row_padding">8dp</dimen>
+</resources>

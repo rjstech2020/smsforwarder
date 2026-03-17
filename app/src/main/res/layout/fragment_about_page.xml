@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="App icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMS Forwarder"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_100"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A free and open app for personal use."
+            android:textSize="15sp"
+            android:textColor="#555555"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by"
+            android:textSize="14sp"
+            android:textColor="#888888"
+            android:layout_marginTop="24dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnXProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@rajatag on X"
+            android:textAllCaps="false"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginTop="4dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠ Important"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#C62828"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/black_100"
+            android:text="Please be very careful when setting up forwarding rules. Messages will be automatically forwarded to the phone number you specify.\n\n• Double-check the forwarding phone number before saving a rule.\n• Forwarded messages may incur SMS charges from your carrier.\n• This app is provided as-is with no warranty. The developer is not responsible for any unintended messages sent or any costs incurred.\n• Do not use this app to forward sensitive or confidential information without understanding the risks."/>
+
+    </LinearLayout>
+
+</ScrollView>
